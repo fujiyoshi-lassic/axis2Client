@@ -106,6 +106,7 @@ public class SoapClient extends HttpServlet {
      * @todo https://netbeans.org/kb/docs/websvc/client_ja.html#creatingtheclient
      * 本番サーバに投げているので注意
      * https://anime.dmkt-sp.jp/animestore/services/PurchaseInformation?wsdl
+     * 
      */
     private static PurchaseQueryResult getPurchaseInfo(jp.dmktsp.anime.back.ws.PurchaseQueryInfo info) {
         jp.dmktsp.anime.back.ws.PurchaseInformation service = new jp.dmktsp.anime.back.ws.PurchaseInformation();
